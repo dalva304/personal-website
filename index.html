@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+<body>
+    <!---Nav Menu!--->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">dianaalvrsan</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#Home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link active-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="Projects" class="nav-link active-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="contact" class="nav-link active-link">contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>   
+            </div>
+            <!--darkmode for the website-->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <!--main-->
+        <main class="wrapper">   
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>hi, nice to meet you! i'm diana.</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>i am a second year computer science student who is interested in data analysis, machine learning, artificial intelligence, research, and product management. i am always looking for ways i can contribute to projects & learn more about the field!:)</p>
+                    </div>
+                    <div class="text-btn">
+                        <button class="btn contact-btn">say hi!<i class="uil uil-envelope-heart"></i></button>
+                        <button class="btn">Resume <i class="uil uil-file"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon-circle"></div>
+                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                        <div class="icon"><i class="uil uil-envelope-heart"></i></div>
+                        <div class="icon"><i class="uil uil-instagram-alt"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </section>
+            <!---about me box !-->
+            <section class="section" id="aboutme">
+                <div class="top-header">
+                    <h1>about me:</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="" alt="" class="profile"/>
+                                    <p>I am currently a second year Computer Science student at the University of Texas Rio Grande Valley. I really like the idea of pursuing a career in this field because I can always keep learning and collaborating with others, as well as sometimes helping people! :)</p>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Some languages I am familiar with and have been working with:</p>
+                        <div class="skill-box">
+                            <span class="title">C++</span>
+                                <span class="tooltip"></span>
+                            </span>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Python</span>
+                                <span class="tooltip"></span>
+                            </span>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Linux</span>
+                                <span class="tooltip"></span>
+                            </span>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Javascript</span>
+                                <span class="tooltip"></span>
+                            </span>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                                <span class="tooltip"></span>
+                            </span>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                                <span class="tooltip"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!---Projects!--->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects:</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-desktop-alt"></i>
+                        <i class="uil uil-github"></i>
+                        <h3>Personal Website</h3>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-desktop-alt"></i>
+                        <i class="uil uil-github"></i>
+                        <h3>Bank Account Management</h3>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-desktop-alt"></i>
+                        <i class="uil uil-github"></i>
+                        <h3>Tank Game</h3>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-desktop-alt"></i>
+                        <i class="uil uil-github"></i>
+                        <h3>Autocompleter</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
