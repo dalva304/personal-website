@@ -18,15 +18,15 @@
             <div class="nav-menu" id="myNavMenu">
                 <ul class="nav_menu_list">
                     <li class="nav_list">
-                        <a href="#Home" class="nav-link active-link">Home</a>
+                        <a href="#Home" class="nav-link active-link">home</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
-                        <a href="#about" class="nav-link active-link">About</a>
+                        <a href="#about" class="nav-link active-link">about</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
-                        <a href="Projects" class="nav-link active-link">Projects</a>
+                        <a href="Projects" class="nav-link active-link">projects</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
@@ -35,7 +35,7 @@
                     </li>
                 </ul>   
             </div>
-            <!--darkmode for the website-->
+            <!--light/darkmode for the website-->
             <div class="mode">
                 <div class="moon-sun" id="toggle-switch">
                     <i class="fa fa-moon" id="moon"></i>
@@ -52,7 +52,7 @@
             <section class="featured-box" id="home">
                 <div class="featured-text">
                     <div class="hello">
-                        <p>hi, nice to meet you! i'm diana.</p>
+                        <h1 class="typed-text"></h1>
                     </div>
                     <div class="featured-name">
                         <span class="typedText"></span>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="text-btn">
                         <button class="btn contact-btn">say hi!<i class="uil uil-envelope-heart"></i></button>
-                        <button class="btn">Resume <i class="uil uil-file"></i></button>
+                        <button class="btn">resume <i class="uil uil-file"></i></button>
                     </div>
                     <div class="social_icons">
                         <div class="icon-circle"></div>
@@ -95,36 +95,15 @@
                     </div>
                     <div class="skill">
                         <p>Some languages I am familiar with and have been working with:</p>
-                        <div class="skill-box">
-                            <span class="title">C++</span>
-                                <span class="tooltip"></span>
-                            </span>
+                        <div class="skill-set">
+                            <li><i class="uil uil-navigator"></i> C++</li>
+                            <li><i class="uil uil-navigator"></i> Python</li>
+                            <li><i class="uil uil-navigator"></i> Linux</li>
+                            <li><i class="uil uil-navigator"></i> JavaScript</li>
+                            <li><i class="uil uil-navigator"></i> HTML</li>
+                            <li><i class="uil uil-navigator"></i> CSS</li>
                         </div>
-                        <div class="skill-box">
-                            <span class="title">Python</span>
-                                <span class="tooltip"></span>
-                            </span>
-                        </div>
-                        <div class="skill-box">
-                            <span class="title">Linux</span>
-                                <span class="tooltip"></span>
-                            </span>
-                        </div>
-                        <div class="skill-box">
-                            <span class="title">Javascript</span>
-                                <span class="tooltip"></span>
-                            </span>
-                        </div>
-                        <div class="skill-box">
-                            <span class="title">HTML</span>
-                                <span class="tooltip"></span>
-                            </span>
-                        </div>
-                        <div class="skill-box">
-                            <span class="title">CSS</span>
-                                <span class="tooltip"></span>
-                            </span>
-                        </div>
+                        <p>outside of school and studying, i like to listen to a lot of music, bake, read, and watch tv.</p>
                     </div>
                 </div>
             </section>
@@ -138,25 +117,31 @@
                         <i class="uil uil-desktop-alt"></i>
                         <i class="uil uil-github"></i>
                         <h3>Personal Website</h3>
+                        <p>Developed this personal website to serve as a portfolio in order to practice and showcase technical skills using HTML, CSS, and Javascript. </p>
                     </div>
                     <div class="project-box">
                         <i class="uil uil-desktop-alt"></i>
                         <i class="uil uil-github"></i>
                         <h3>Bank Account Management</h3>
+                        <p>Implemented methods for deposit and withdraw that enforce non-negative balance constraints, demonstrating a solid understanding of object-oriented programming principles.</p>
                     </div>
                     <div class="project-box">
                         <i class="uil uil-desktop-alt"></i>
                         <i class="uil uil-github"></i>
                         <h3>Tank Game</h3>
+                        <p>Developed a 2D arcade-style tank game using Python's Pygame library, demonstrating core game development concepts such as graphics rendering, player interaction, and health management</p>
                     </div>
                     <div class="project-box">
                         <i class="uil uil-desktop-alt"></i>
                         <i class="uil uil-github"></i>
                         <h3>Autocompleter</h3>
+                        <p>Designed and implemented an efficient autocompletion feature using an AVL tree data structure, emphasizing algorithm optimization and data handling for enhanced user experience.</p>
                     </div>
                 </div>
             </section>
         </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
