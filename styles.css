@@ -160,6 +160,13 @@ body.dark #moon{
     opacity: 0;
 }
 
+body.dark p {
+    color: var(--color-white); /* Change this to any light color you want */
+}
+
+body.dark h3{
+    color: #e5acdb;
+}
 /*----wrapper---*/
 .wrapper{
     padding-inline: 10vw;
@@ -274,6 +281,7 @@ i{
     height: 40px;
     border-radius: 50px;
 }
+
 
 .social_icons:hover .icon-circle{
     cursor: pointer;
@@ -520,7 +528,16 @@ i{
     
 }
 
+.typed-text {
+    display: inline;
+  }
+  
+  .typed-cursor {
+    font-size: inherit;
+    color: inherit;
+    display: inline;
+  }
 
-
+  
 
 
