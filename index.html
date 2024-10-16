@@ -18,22 +18,18 @@
             <div class="nav-menu" id="myNavMenu">
                 <ul class="nav_menu_list">
                     <li class="nav_list">
-                        <a href="#Home" class="nav-link active-link">home</a>
+                        <a href="#home" class="nav-link active-link">home</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
-                        <a href="#about" class="nav-link active-link">about</a>
+                        <a href="#aboutme" class="nav-link active-link">about</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
-                        <a href="Projects" class="nav-link active-link">projects</a>
+                        <a href="#projects" class="nav-link active-link">projects</a>
                         <div class="circle"></div>
                     </li>
-                    <li class="nav_list">
-                        <a href="contact" class="nav-link active-link">contact</a>
-                        <div class="circle"></div>
-                    </li>
-                </ul>   
+                </ul>                  
             </div>
             <!--light/darkmode for the website-->
             <div class="mode">
@@ -61,8 +57,12 @@
                         <p>i am a second year computer science student who is interested in data analysis, machine learning, artificial intelligence, research, and product management. i am always looking for ways i can contribute to projects & learn more about the field!:)</p>
                     </div>
                     <div class="text-btn">
-                        <button class="btn contact-btn">say hi!<i class="uil uil-envelope-heart"></i></button>
-                        <button class="btn">resume <i class="uil uil-file"></i></button>
+                        <button class="btn contact-btn">
+                            <a href="mailto:youremail@outlook.com" class="email-link">Say Hi! <i class="uil uil-envelope-heart"></i></a>
+                        </button>
+                        <button class="btn">
+                            <a href="Resume_DA.pdf" download class="resume-link">Resume <i class="uil uil-file"></i></a>
+                        </button>
                     </div>
                     <div class="social_icons">
                         <div class="icon-circle"></div>
@@ -142,6 +142,7 @@
         </main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="app.js"></script>
 </body>
 </html>
