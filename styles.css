@@ -538,6 +538,9 @@ i{
     display: inline;
   }
 
-  
+  .some-element-left, .some-element-right {
+    opacity: 0;
+}
+
 
 
